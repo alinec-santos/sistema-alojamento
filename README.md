@@ -1,30 +1,33 @@
-https://github.com/user-attachments/assets/54827d83-4a18-4e31-a206-8bb01060fedf
+# Sistema Automatizado de Gestão do Alojamento - TCC Técnico em Informática
+Este projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) do curso Técnico em Informática, com o objetivo de transformar um sistema totalmente manual em uma solução automatizada. O sistema foi desenvolvido utilizando JavaFX para a interface gráfica, CSS para estilização, XAMPP para gerenciamento do servidor e banco de dados, e phpMyAdmin para administração do banco de dados MySQL. O Apache e o MySQL são utilizados para rodar o servidor web e o banco de dados localmente.  
 
-Para rodar o sistema, basta baixar os ficheiros.
+## Funcionalidades
+O sistema automatiza diversas operações, incluindo:  
+-Busca de alunos  
+-Inserção e exclusão de alunos  
+-Consultas de uso de piscina  
+-Controle de uso de lavanderia  
+-Controle de empréstimos de materiais no alojamento  
+-Gestão de quartos  
+-Criação de ocorrências no sistema  
 
-Instale o XAMPP, inicializador de server local em alguns protocolos disposto em: "https://www.apachefriends.org/pt_br/download.html";
+Todas essas informações são armazenadas em um banco de dados local, garantindo a organização e a eficiência na gestão das operações.  
 
-Abra o XAMPP e inicialize os serviços "Apache" e "MySQL". Se atente a porta MySQL, o valor deve ser 3306.
+## Instruções para Execução  
+Instalação do XAMPP:  
+-Baixe e instale o XAMPP (disponível em https://www.apachefriends.org/pt_br/index.html).  
+-Após a instalação, abra o XAMPP e ative os serviços Apache e MySQL.  
+-Certifique-se de que a porta do MySQL esteja configurada como 3306.  
 
-Abra o gerenciador do mesmo através: "http://localhost/phpmyadmin/index.php?route=/".
+Configuração do Banco de Dados:  
+-Acesse o phpMyAdmin através do painel do XAMPP.  
+-O projeto contém um script chamado "alojamento" com o código sql do database. Basta copiar e colar na aba SQL no phpMyAdmin. 
+-Certifique-se de que a conexão do banco de dados esteja configurada corretamente no sistema.  
 
-Clique em "Importar" e importe o arquivo "alojamento.sql", disposto em scr/conn.
+Configuração do Projeto no NetBeans:    
+-O projeto foi desenvolvido usando o NetBeans 8.2, pois esta versão já contém todos os arquivos .jar necessários para a compilação do projeto.  
+-Importe o projeto no NetBeans e configure as conexões com o banco de dados.  
 
-Após isso, pode-se tentar executar o .jar, disposto em dist.
-
-Caso não funcione, baixe o NetBeans 8.0.2 e execute lá dentro. 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-To run the system, simply download the files.
-
-Install XAMPP, a local server launcher for some protocols available at: "https://www.apachefriends.org/pt_br/download.html";
-
-Open XAMPP and start the "Apache" and "MySQL" services. Pay attention to the MySQL port, the value should be 3306.
-
-Open the manager via: "http://localhost/phpmyadmin/index.php?route=/".
-
-Click on "Import" and import the file "alojamento.sql", available in scr/conn.
-
-After that, you can try to run the .jar, available in dist.
-
-If it doesn't work, download NetBeans 8.0.2 and run it there.
+Execução do Sistema:  
+-Após iniciar o XAMPP e conectar ao banco de dados, execute o programa no NetBeans.  
+-O sistema estará pronto para realizar as funções de gerenciamento descritas acima.  
