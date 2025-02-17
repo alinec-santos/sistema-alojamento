@@ -1,3 +1,6 @@
+https://github.com/user-attachments/assets/7fee15ab-5e3a-4d1d-aa95-1217496e13ae
+
+
 # Sistema Automatizado de Gestão do Alojamento - TCC Técnico em Informática
 Este projeto foi desenvolvido como parte do Trabalho de Conclusão de Curso (TCC) do curso Técnico em Informática, com o objetivo de transformar um sistema totalmente manual em uma solução automatizada. O sistema foi desenvolvido utilizando JavaFX para a interface gráfica, CSS para estilização, XAMPP para gerenciamento do servidor e banco de dados, e phpMyAdmin para administração do banco de dados MySQL. O Apache e o MySQL são utilizados para rodar o servidor web e o banco de dados localmente.  
 
